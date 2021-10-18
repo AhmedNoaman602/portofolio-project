@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  flex-direction: column;
+  background-color: black;
+}
+nav {
+  width: 100%;
+  height: 75px;
+  background-color: black;
+  color: white;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+}
+#logo {
+  font-family: "Noto Sans Mono", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.nav-items {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.nav-item #me {
+  color: blueviolet;
+}
+.nav-items a:hover {
+  color: blueviolet;
+  border-bottom: 2px solid #fff;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 400;
+  display: inline-block;
+  padding: 10px;
+  color: #fff;
+}
+.change-mode{
+    margin-left: 20px;
+}
+.change-mode a{
+    color: black;
+    background-color: #fff;
+}
+/* About Me */
+#about-me {
+  display: flex;
+}
+#about-me .aboutme{
+    animation: slidein 1s linear 1s;
+}
+.heading-two {
+  font-size: 30px;
+  padding: 15px;
+}
+#about-me p {
+  padding: 15px;
+}
+#about-me img {
+  width: 500px;
+  border-radius: 40px;
+}
+/* Projects */
+#projects {
+  margin-top: 20px;
+}
+.project-lists {
+  margin-left: 30px;
+}
+.project-lists li {
+  padding: 5px;
+}
+.project-lists a {
+  text-decoration: none;
+  color: #fff;
+}
+.project-lists a:hover {
+  color: blueviolet;
+}
+
+/* Skills */
+#skills {
+  margin-top: 30px;
+}
+.skills-container {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 2em;
+  margin-left: 20px;
+}
+
+/* Contact */
+#contact {
+  margin-top: 30px;
+  border: blueviolet 2px solid;
+}
+.contact-paragraph {
+  padding: 15px;
+}
+.contact-container {
+  margin: 5px;
+  font-size: 1.7em;
+}
+.contact-container a {
+  padding: 10px;
+}
