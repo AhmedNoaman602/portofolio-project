@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+body{
+    color: #fff;
+    background-color:gray;
+}
+h1 , h2{
+    font-weight: 300;
+    line-height:1.2;
+    margin: 10px 0;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration:none;
+}
+/* Navbar */
+.navbar{
+    background-color:blue;
+    height: 70px;
+}
+.navbar ul{
+    display:flex;
+}
+.navbar a {
+    padding: 10px;
+    margin: 0 5px;
+    color: #fff;
+}
+
+.navbar a:hover{
+    border-bottom: 2px solid #fff;
+}
+.navbar .flex{
+    justify-content:space-between;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.logo{
+    margin: 10px;
+}
+
+/* welcome */
+.welcome {
+    display: flex;
+    justify-content: space-evenly;
+}
+.welcome h1{
+    color: #fff;
+    font-weight: 500;
+    font-size: 40px;
+    align-self:center;
+}
+.welcome img{
+    width: 100%;
+    max-width: 450px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 50% 30%;
+    border-radius: 50%;
+    margin-top: 20px; 
+}
+#ahmed{
+    color: #fff;
+    text-decoration:underline;
+}
+#ahmed :hover{
+    color: blue;
+    cursor: pointer; 
+}
+
+/* aboutme */
+.about{
+    display: flex;
+    justify-content:space-evenly;
+       
+}
+.about1{
+    color: #333;
+    background-color: #fff;
+    margin: 5px;
+}
+.about2{
+    color: #333;
+    background-color: #fff;
+    margin: 5px;
+}
+.about3{
+    color: #333;
+    background-color: #fff;
+    margin: 5px;
+}
+.about1:hover{
+background-color: blue;
+color: #fff;
+}
+.about2:hover{
+background-color: blue;
+color: #fff;
+}
+.about3:hover{
+background-color: blue;
+color: #fff;
+}
+
+
